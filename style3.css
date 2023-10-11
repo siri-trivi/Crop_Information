@@ -1,0 +1,58 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container to center its contents */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* This ensures it takes up the full viewport height */
+}
+
+/* Style the link */
+a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 3px;
+}
+body {
+    background-image: url('crop4.jpg'); /* Replace with the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+/* Apply CSS properties to the paragraph */
+.my-paragraph {
+    position: absolute;
+    top: 20%;
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center horizontally and vertically */
+    width: 80%; /* Adjust the width as needed */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #333;
+    padding: 20px;
+    z-index: 0; /* Place the paragraph behind the image */
+}
+
+.center-container {
+    position: relative;
+    height: 100vh; /* Adjust the height as needed */
+    text-align: center;
+  }
+  
+  .bottom-left-link {
+    position: absolute;
+    bottom: 37%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    color: white; /* Link color */
+    font-weight: bold;
+    font-size: 30px; /* Adjust the font size as needed */
+  }

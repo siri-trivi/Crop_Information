@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+    font-family: Arial;
+}
+.navbar ul{
+    list-style: none;
+    background: #bd1e43;
+    background-color: burlywood;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    display: block;
+    padding: 20px 20px ; 
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: arial; 
+    text-align: center;  
+    font-size: 14px;
+}
+.navbar a:hover{
+    background: #353640;
+    padding: 20px 20px;
+}
+body {
+    background-image: url('https://i.pinimg.com/originals/0f/96/14/0f96144c7a0b91ac95b78335bb83c2ea.jpg'); /* Replace 'background.jpg' with the actual image file path */
+    background-size: cover; /* Adjust the background size as needed */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This keeps the background fixed while scrolling */
+}

@@ -1,0 +1,202 @@
+body {
+    background-image: url('crop1.jpg'); /* Replace with the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.City{
+    top: 100%;
+    left: 300%;
+    right: 5%;
+}
+.Crop{
+    top: 100%;
+    left: 5%;
+    right: 200%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.search-container {
+    position: absolute;
+    margin: 50px 0px;
+    top: 50;
+    right: 0;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+.search-container input[type="text"] {
+    border: black;
+    border-radius: 2px;
+    border-width: 2px;
+    border-style: double;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.search-container button[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Soil {
+    position: absolute;
+    margin: 50px 0px;
+    top: 50;
+    left: 0;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+.Soil input[type="text"] {
+    border: black;
+    border-radius: 2px;
+    border-width: 2px;
+    border-style: double;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.Soil button[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the sections */
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Style the "Get Started" button */
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Style the navigation in the footer */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container to center its contents */
+.center-container {
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* This ensures it takes up the full viewport height */
+}
+
+/* Apply CSS properties to the paragraph */
+.container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+/* Style the image */
+/* Style the image */
+
+
+/* Apply CSS properties to the paragraph */
+/* Apply CSS properties to the paragraph */
+.my-paragraph {
+    position: absolute;
+    top: 40%;
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center horizontally and vertically */
+    width: 80%; /* Adjust the width as needed */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #333;
+    padding: 20px;
+    z-index: 0; /* Place the paragraph behind the image */
+}
+
+
+.bottom-left-link {
+    position: absolute;
+    bottom: 250px; /* Adjust the vertical position as needed */
+    left: 10px; /* Adjust the horizontal position as needed */
+    text-decoration: none;
+    background-color: #007BFF; /* Add a background color to make the link visible */
+    color: white;
+    padding: 10px 20px; /* Add padding to make the link more prominent */
+}
+/* Center the link at the bottom of the container or page */
+.center-container {
+    position: relative;
+    height: 100vh; /* Adjust the height as needed */
+    text-align: center;
+  }
+  
+  .bottom-left-link {
+    position: absolute;
+    bottom: 30;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    color: white; /* Link color */
+    font-weight: bold;
+    font-size: 25px; /* Adjust the font size as needed */
+  }
+  
